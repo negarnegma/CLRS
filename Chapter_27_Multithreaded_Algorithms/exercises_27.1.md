@@ -70,7 +70,8 @@ The multiply of two vectors is thus $\Theta(\lg n)$, there are $n$ vectors to mu
 
 > Consider the following multithreaded pseudocode for transposing an $n \times n$ matrix $A$ in place:
 > 
-> ```
+>
+ ```
 P-TRANSPOSE(A)
 1  n = A.rows
 2  parallel for j = 2 to n
